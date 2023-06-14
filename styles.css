@@ -1,0 +1,95 @@
+.btn-consultant {
+    border: none;
+    background-color: rgb(182, 140, 90);
+    border-radius: 6px;
+    color: white;
+}
+
+.btn-search {
+    border: none;
+    background-color: rgb(182, 140, 90);
+    border-radius: 6px;
+    color: white;
+}
+
+.banner {
+    background-image: url("images/Rectangle 5.png"), url("images/banner.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.banner h1 {
+    padding-top: 120px;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: EB Garamond;
+}
+
+.service-input {
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.service-input::placeholder {
+    color: rgb(171, 168, 168);
+}
+
+.carousel-item {
+    height: 530px;
+}
+
+.carousel-item img {
+    border-radius: 8px;
+}
+
+.accordion-item {
+    background-color: rgba(174, 170, 170, 0.2);
+}
+
+.accordion-item .accordion-button {
+    background-color: rgba(174, 170, 170, 0.0);
+    border: none;
+}
+
+.footer {
+    height: 500px;
+
+    background-color: black;
+    font-size: 15px;
+}
+
+@media screen and (width < 700px) {
+    .banner {
+        background-size: 100%;
+        height: 100%;
+    }
+
+    .banner h1 {
+        padding-top: 150px;
+        ;
+        font-size: 30px;
+        color: rgb(5, 3, 11);
+    }
+
+    .banner p {
+        color: rgb(5, 3, 11);
+    }
+
+    .service-input {
+        border: solid rgb(197, 194, 194) 2px;
+    }
+
+    .faq {
+        width: 250px;
+    }
+
+    .footer {
+        height: 100%;
+
+        background-color: black;
+        font-size: 15px;
+    }
+
+}
